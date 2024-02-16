@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/52829efaee.js" crossorigin="anonymous"></script>
+
+    <title>Preeti Panchal</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="images/logo.jpg" class="logo" height="90" width="95">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <!-- <li><a href="#">EDUCATION</a></li> -->
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-x" style="color: #be0a0a;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" style="color: #eea34c;" onclick="openmenu()"></i>
+        </nav>
+        <div class="intro">
+            <h3><span>Hello!</span></h3>
+            <h1>I'M Preeti <span>Panchal</span></h1>
+            <p>This is my official Portfolio website to showcase all my work
+                <br> and other details about me.
+            </p>
+            <div class="images">
+                <img src="images/shape.jpg" class="shape">
+                <img src="images/ff.png" class="myimg">
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- header section ends here -->
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Snapchat-600341263.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Preeti Panchal, a postgraduate student pursuing Masters in Computer Application from <a
+                            class="clg-name" href="https://www.jcboseust.ac.in/">@JC BOSE UST YMCA</a>,Faridabad. I have
+                        chosen to pursue a career as a web developer . My enthusiasm lies in tackling challenges and
+                        crafting innovative solutions. Exploring novel destinations brings me immense joy. The driving
+                        force behind my dedication to constant improvement and hard work is my personal dream,
+                        propelling me to strive for greater achievements. Presently, my focus centers around the realms
+                        of designing, development, and programming.</p>
+
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('profile')">Profile</div>
+                        <div class="tab-links" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="profile">
+                        <ul>
+                            <li><span>Full Name:</span><br>Preeti Panchal</li>
+                            <li><span>Birth Date:</span><br>December 19, 2000</li>
+                            <li><span>Profession:</span><br>MCA student @ JCBUST</li>
+                            <li><span>Email:</span><br>preetipanchal1900@gmail.com</li>
+                            <li><span>Mobile:</span><br>7042554264</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="skills">
+                        <h4 class="profileItems  wow fadeIn" style="padding-top: 1.7vh;">ALGORITHM:</h4>
+                        <div class="progress mb-4  wow fadeIn" style="height:8px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 62%"></div>
+                        </div>
+                        <h4 class="profileItems  wow fadeIn" style="padding-top: 1.7vh;">DATA STRUCTURE:</h4>
+                        <div class="progress  mb-4  wow fadeIn" style="height:8px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 50%"></div>
+                        </div>
+                        <h4 class="profileItems  wow fadeIn" style="padding-top: 1.7vh;">FRONT END:</h4>
+                        <div class="progress  mb-4  wow fadeIn" style="height:8px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 80%"></div>
+                        </div>
+                        <h4 class="profileItems  wow fadeIn" style="padding-top: 1.7vh;">BACK END:</h4>
+                        <div class="progress  mb-4  wow fadeIn" style="height:8px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 54%"></div>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents" id="education" >
+                        <ul>
+                            <li><span>X-High School:</span><br>D.A.V. Public School<br>April,2016-May,2017</li>
+                            <li><span>XII-High School:</span><br>D.A.V. Public School<br>April,2018-May,2019</li>
+                            <li><span>Bachelor:</span><br>J.C.Bose University of Science and Technology<br>BCA<br>July,2019-July,2022 </li>
+                            <li><span>Master's:</span><br>J.C.Bose University of Science and Technology<BR>MCA<br>July,2022-July,2024 </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+            <!--------------------------Skills--------------------->
+    <!-- <div id="skills">
+        <div class="container">
+            <h1 class="sub-title"><br>My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Designing captivating and responsive web interfaces with strong front-end development skills.</p>
+                    <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI Design</h2>
+                    <p>Crafting visually appealing interfaces for seamless and engaging user experiences.</p>
+                    <a href="https://www.coursera.org/in/articles/ui-design">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-people-group"></i>
+                    <h2>Team Player</h2>
+                    <p>Collaborative mindset, fostering unity, and contributing effectively within diverse teams.</p>
+                    
+                </div>
+             </div>
+        </div>
+    </div>   -->
+    
+        <!--Projects--><!--Projects--><!--Projects--><!--Projects--><!--Projects-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <!-- <div class="work">
+                <img src="images/Work.jpg">
+                <div class="layer">
+                    <h3>Book Shop Management System</h3>
+                    <p>Comprehensive online bookstore management: inventory tracking, order processing, and customer engagement for optimal efficiency.</p>
+                    <a href="#"><i class="fa-solid fa-link" style="color: #0c4f3b;"></i></a>
+                </div>
+            </div> -->
+            <div class="work">
+                <img src="images/disease.jpg">
+                <div class="layer">
+                    <h3>Multiple Disease Prediction</h3>
+                    <p>Multiple disease prediction utilizes advanced algorithms to forecast an individual's risk of developing various health conditions simultaneously,</p>
+                    <a href="https://github.com/Preeti0019/Multiple_disease_prediction"><i class="fa-solid fa-link" style="color: #0c4f3b;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>Simple portfolio showcasing work, skills, and about me, providing a clear snapshot of my abilities.</p>
+                    <a href="https://github.com/Preeti0019/Personal-Portfolio"><i class="fa-solid fa-link" style="color: #382867;"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div> 
+
+<!-----------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-at " style="color: #3df2ff;"></i> preetipanchal1900@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #74C0FC;"></i> +91-7042554264</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/__preeti1900__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/preeti-panchal-37b7bb287/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Preeti Panchal Resume (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Preeti. <br><i class="fa-solid fa-code"></i> by Preeti</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXT7SVlGQCCem_JtGFbFne4kHlyJ_Ouui5mN1J9Lva9kbclOk0Wqgc3S7FvKJx9Qyr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
